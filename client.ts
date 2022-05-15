@@ -3,8 +3,8 @@ import fetch from 'node-fetch'
 import { API_KEY } from './config'
 
 // soon be api.memomeister.com
-const httpUrl = 'https://web.memomeister.com/v2/graphql';
-const socketUrl = 'wss://web.memomeister.com/v2/graphql';
+const httpUrl = 'https://api.memomeister.com/graphql';
+const socketUrl = 'wss://api.memomeister.com/graphql';
 
 const urls = {
   http: httpUrl,
